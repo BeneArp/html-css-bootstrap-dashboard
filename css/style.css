@@ -10,6 +10,10 @@ img{
     max-height: 100%;
 }
 
+i{
+    margin-right: 0.5em;
+}
+
 ul{
     list-style: none;
 }
@@ -61,7 +65,7 @@ header .desktop-version i{
 .desktop-version .fa-question{
     color: white;
     background-color: rgb(91 88 88);
-    padding: 0.8em 1em;
+    padding: 0.3em 0.5em;
     border-radius: 50%;
 }
 
@@ -124,6 +128,7 @@ header .desktop-version i{
 }
 
 .icone i{
+    margin-right: 0;
     margin-bottom: 1em;
     display: block;
 }
