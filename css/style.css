@@ -144,6 +144,8 @@ header .desktop-version i{
 /* COLONNA PRINCIPALE */
 
 /* barra superiore */
+
+/* breadcrumbs */
 .breadcrumb-item{
     background-color: rgba(91, 88, 88, 0.5);
     padding: 0 0.8em;
@@ -159,12 +161,13 @@ header .desktop-version i{
 
 
 
-
+/* collapse */
 #form{
-    background-color: red;
     position: absolute;
     right: 0;
     top: 0;
-    width: 30%;
+    width: 35%;
     height: 100vh;
+    padding: 90px 1em 1em;
 }
+
