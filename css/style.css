@@ -44,3 +44,19 @@ img{
 .input-group-text, .form-control{
     background-color: rgb(229 229 229);
 }
+
+header .desktop-version i{
+    margin-right: 1em;
+    color: rgb(91 88 88);
+}
+
+.desktop-version .fa-question{
+    color: white;
+    background-color: rgb(91 88 88);
+    padding: 0.8em 1em;
+    border-radius: 50%;
+}
+
+.desktop-version{
+    display: none;
+}
