@@ -1,3 +1,32 @@
+/* generali */
 body{
     font-family: "Roboto", sans-serif;
+}
+
+header{
+    /* debug */
+    background-color: darkcyan;
+    height: 80px;
+}
+
+
+/* DEBUG */
+.container-fluid{
+    border: 2px solid black;
+    height: 100%;
+}
+
+[class*="col"]{
+    height: 400px;
+    background-color: darkslategray;
+    border: 2px solid white;
+}
+
+.col [class*="col"] {
+    background-color: blue;
+}
+
+.col-12 [class*="col"]{
+    background-color: aquamarine;
+    height: 200px;
 }
