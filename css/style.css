@@ -3,11 +3,6 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-header{
-    /* debug */
-    height: 100px;
-    max-height: 100px;
-}
 
 img{
     max-width: 100%;
@@ -35,7 +30,13 @@ img{
     height: 200px;
 }
 
+
+
 /* HEADER */
+
+header{
+    height: 80px;
+}
 
 .logo{
     height: 80px;
@@ -57,6 +58,29 @@ header .desktop-version i{
     border-radius: 50%;
 }
 
+/* non visibile nelle versioni mobile e tablet */
 .desktop-version{
     display: none;
+}
+
+
+
+
+
+/* MAIN */
+
+/* colonna sinistra */
+.ms-box{
+    height: 100vh;
+    background: linear-gradient(
+        -160deg,
+        rgb(5 30 52)0%,
+        rgb(5 30 52)30%,
+        rgb(14 37 59) 30%,
+        rgb(14 37 59) 100%
+    )
+}
+
+.ms-container{
+    padding-top: 80px;
 }
