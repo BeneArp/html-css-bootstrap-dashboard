@@ -5,19 +5,23 @@ body{
 
 header{
     /* debug */
-    background-color: darkcyan;
-    height: 80px;
+    height: 100px;
+    max-height: 100px;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* DEBUG */
 .container-fluid{
     border: 2px solid black;
-    height: 100%;
+
 }
 
 [class*="col"]{
-    height: 400px;
+
     background-color: darkslategray;
     border: 2px solid white;
 }
@@ -29,4 +33,14 @@ header{
 .col-12 [class*="col"]{
     background-color: aquamarine;
     height: 200px;
+}
+
+/* HEADER */
+
+.logo{
+    height: 80px;
+}
+
+.input-group-text, .form-control{
+    background-color: rgb(229 229 229);
 }
