@@ -132,3 +132,22 @@ header .desktop-version i{
     margin-bottom: 1em;
     display: block;
 }
+
+
+
+
+/* COLONNA PRINCIPALE */
+
+/* barra superiore */
+.breadcrumb-item{
+    background-color: rgba(91, 88, 88, 0.5);
+    padding: 0 0.8em;
+    border-radius: 20px;
+    margin-right: 0.5em;
+}
+
+.breadcrumb i{
+    font-size: 12px;
+    vertical-align: middle;
+    margin: 0.6em 0.5em 0 0;
+}
