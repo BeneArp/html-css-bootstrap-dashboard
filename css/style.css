@@ -1,6 +1,7 @@
 /* generali */
 body{
     font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 
 
@@ -9,16 +10,21 @@ img{
     max-height: 100%;
 }
 
-/* DEBUG */
-.container-fluid{
-    border: 2px solid black;
-
+ul{
+    list-style: none;
 }
+
+li{
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+/* DEBUG */
 
 [class*="col"]{
 
     background-color: darkslategray;
-    border: 2px solid white;
+    
 }
 
 .col [class*="col"] {
@@ -29,6 +35,8 @@ img{
     background-color: aquamarine;
     height: 200px;
 }
+
+
 
 
 
@@ -47,7 +55,6 @@ header{
 }
 
 header .desktop-version i{
-    margin-right: 1em;
     color: rgb(91 88 88);
 }
 
@@ -70,17 +77,53 @@ header .desktop-version i{
 /* MAIN */
 
 /* colonna sinistra */
-.ms-box{
+.ms-box-sx{
+    padding: 100px 1em 1em;
     height: 100vh;
+    color: white;
     background: linear-gradient(
         -160deg,
         rgb(5 30 52)0%,
         rgb(5 30 52)30%,
         rgb(14 37 59) 30%,
         rgb(14 37 59) 100%
-    )
+    );
 }
+
 
 .ms-container{
     padding-top: 80px;
+    height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+}
+
+
+.font-awesome::marker{
+    font-family: "FontAwesome";
+}
+
+.home{
+    list-style: "\f015";
+}
+
+.stats{
+    list-style: "\e473";
+}
+
+.signal{
+    list-style: "\f012";
+}
+
+.settings{
+    list-style: "\f013";
+}
+
+.icone{
+    text-align: center;
+}
+
+.icone i{
+    margin-bottom: 1em;
+    display: block;
 }
