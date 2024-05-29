@@ -88,7 +88,6 @@ header .desktop-version i{
 
 .ms-main-container{
     height: calc(100vh - 80px);
-    background-color: red;
 }
 
 
@@ -181,11 +180,6 @@ header .desktop-version i{
     background-color: white;
 }
 
-@media screen and (max-width:991px) {
-    #form{
-        width: 100%;
-    }
-}
 
 
 
@@ -221,6 +215,28 @@ table i{
 .big{
     width: 60%;
 }
+
+/* todo */
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query intermedie */
+
+@media screen and (max-width:991px) {
+    #form{
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width:800px) {
     .desktop{
