@@ -20,8 +20,7 @@ ul{
 }
 
 li{
-    padding-left: 1em;
-    margin-bottom: 1em;
+
 }
 
 nav{
@@ -103,6 +102,11 @@ header .desktop-version i{
         rgb(14 37 59) 30%,
         rgb(14 37 59) 100%
     );
+}
+
+.ms-box-sx li{
+    padding-left: 1em;
+    margin-bottom: 1em;
 }
 
 .font-awesome::marker{
@@ -216,7 +220,10 @@ table i{
     width: 60%;
 }
 
-/* todo */
+/* grafico */
+.ms-border-top{
+    border-top: 1px solid #dee2e6 !important;
+}
 
 
 
