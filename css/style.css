@@ -32,12 +32,12 @@ nav{
 
 [class*="col"]{
 
-    background-color: darkslategray;
+    
     
 }
 
 .col [class*="col"] {
-    background-color: blue;
+    
 }
 
 .col-12 [class*="col"]{
@@ -53,13 +53,14 @@ nav{
 
 header{
     height: 80px;
+    background-color: white;
 }
 
 .logo{
     height: 80px;
 }
 
-.input-group-text, .form-control{
+header .input-group-text, header .form-control{
     background-color: rgb(229 229 229);
 }
 
@@ -166,8 +167,17 @@ header .desktop-version i{
     position: absolute;
     right: 0;
     top: 0;
-    width: 35%;
+    z-index: 1200;
+    width: 45%;
     height: 100vh;
-    padding: 90px 1em 1em;
+    padding: 1em 1em;
+
+    /* debug */
+    background-color: white;
 }
 
+@media screen and (max-width:991px) {
+    #form{
+        width: 100%;
+    }
+}

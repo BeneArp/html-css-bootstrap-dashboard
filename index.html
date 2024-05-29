@@ -188,9 +188,125 @@
                         <!-- form collegato al bottone nuovo studente -->
                         <div class="collapse collapse-horizontal close" id="form">
 
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quibusdam atque minus expedita officiis! Eaque beatae tempora pariatur dolor debitis. Veniam corporis quas sapiente deleniti dolore debitis magni. Officiis, deserunt!</p>
+                            <div class="row">
 
-                            <a class="btn-close" type="button" data-bs-toggle="collapse" data-bs-targert="#form" href="#form"></a>
+                                <!-- colonna titolo -->
+                                <div class="col-11 mb-3">
+                                    <h5>Inserisci un nuovo studente</h5>
+                                </div>
+
+                                <!-- bottone chiusura -->
+                                <div class="col-1">
+                                    <a class="btn-close" type="button" data-bs-toggle="collapse" data-bs-targert="#form" href="#form"></a>
+                                </div>
+
+                                <!-- nome -->
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="nome">
+                                      </div>
+                                </div>
+
+                                <!-- cognome -->
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="cognome" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="cognome">
+                                      </div>
+                                </div>
+
+                                <!-- email -->
+                                <div class="col-12 col-md-6">
+
+                                    <!-- etichetta -->
+                                    <label for="mail" class="form-label">Email</label>
+
+                                    <!-- campo form -->
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">@</span>
+                                        <input type="text" class="form-control" id="mail" aria-label="Username" aria-describedby="addon-wrapping">
+                                      </div>
+                                </div>
+
+                                <!-- password -->
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password">
+                                      </div>
+                                </div>
+
+                                <!-- indirizzo -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="indirizzo" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="indirizzo">
+                                      </div>
+                                </div>
+
+                                <!-- città -->
+                                <div class="col-12 col-md-6">
+                                    <div class="mb-3">
+                                        <label for="citta" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="citta">
+                                      </div>
+                                </div>
+
+                                <!-- stato -->
+                                <div class="col-12 col-md-4">
+
+                                    <!-- etichetta -->
+                                    <label for="scelta" class="form-label">Stato</label>
+
+                                    <!-- form scelta -->
+                                    <div class="input-group mb-3">
+                                        <select class="form-select" id="scelta" aria-label="Example select with button addon">
+                                          <option selected>Scegli...</option>
+                                          <option value="italia">Italia</option>
+                                          <option value="francia">Francia</option>
+                                          <option value="germania">Germania</option>
+                                        </select>
+                                      </div>
+                                </div>
+
+                                <!-- cap -->
+                                <div class="col-12 col-md-2">
+                                    <div class="mb-3">
+                                        <label for="cap" class="form-label">Cap</label>
+                                        <input type="number" class="form-control" id="cap">
+                                    </div>
+                                </div>
+
+                                <!-- scegli file -->
+                                <div class="col-12">
+
+                                    <!-- etichetta -->
+                                    <label for="cap" class="form-label">Foto</label>
+
+                                    <div class="input-group mb-3">
+                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                      </div>
+                                </div>
+
+                                <!-- check -->
+                                <div class="col-12 m-3 ms-0">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="selezione">
+                                        <label class="form-check-label" for="selezione">
+                                          Seleziona per proseguire
+                                        </label>
+                                      </div>
+                                </div>
+
+                                <!-- bottoni -->
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-primary">Salva</button>
+                                    <button type="button" class="btn btn-warning">Svuota</button>
+                                </div>
+                            </div>
+                            
+
                         </div>
 
                         
