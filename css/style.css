@@ -105,7 +105,6 @@ header .desktop-version i{
     padding-top: 80px;
     height: 100%;
     width: 100%;
-    background-color: chartreuse;
 }
 
 
@@ -200,7 +199,7 @@ header .desktop-version i{
 
 .titolo-sezione{
     background-color: rgb(247 247 247);
-    padding: 0.5em 0.2em;
+    padding: 0.5em;
     margin-bottom: 0;
     border-radius: 10px 10px 0 0;
     border-bottom: 1px solid #dee2e6;
@@ -214,5 +213,12 @@ table img{
 
 table i{
     margin: 0;
+}
+
+
+@media screen and (max-width:676px) {
+    .desktop{
+        display: none;
+    }
 }
 

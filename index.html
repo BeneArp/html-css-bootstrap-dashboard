@@ -331,9 +331,9 @@
                                             <thead>
                                               <tr>
                                                 <th colspan="3">Nome</th>
-                                                <th class="text-center ">Data inizio</th>
-                                                <th class="text-center">ROI</th>
-                                                <th class="text-center ">Stato</th>
+                                                <th class="text-center desktop">Data inizio</th>
+                                                <th class="text-center desktop">ROI</th>
+                                                <th class="text-center">Stato</th>
                                                 <th class="text-center">Azioni</th>
                                               </tr>
                                             </thead>
@@ -341,8 +341,8 @@
                                             <tbody>
                                               <tr>
                                                 <td colspan="3"><img src="img/class-avatar.jpg" alt="Avatar classe">Classe 75</td>
-                                                <td>15 Febbraio 2021</td>
-                                                <td>20%</td>
+                                                <td class="desktop">15 Febbraio 2021</td>
+                                                <td class="desktop">20%</td>
                                                 <td><span class="badge text-bg-success">Done</span></td>
                                                 <td><span class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></span>
                                                     <span class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></span></td>
@@ -356,10 +356,63 @@
 
                                 </div>
 
+                                <!-- faq -->
+                                <div class="ms-sezione">
+                                    <h2 class="titolo-sezione">F.A.Q.</h2>
+
+                                    <!-- BS accordion -->
+                                    <div class="accordion accordion-flush p-3" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                              Come aggiungere un nuovo studente?
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint officiis eum ut architecto consequuntur veritatis repudiandae, quo tempora. Incidunt libero fuga minus laboriosam et vel maxime, ullam voluptates non numquam.</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                              Come posso accedere alle informazione del mio account?
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magni tenetur reiciendis nulla laboriosam earum accusamus ducimus, ipsam facilis dolore eum quasi atque nemo minima ad, iusto provident, quod corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, numquam quae quas et expedita ipsa sapiente voluptatum rem aperiam, fugiat, asperiores sunt cumque cupiditate quos velit aut quo aliquam nemo?</div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                              Posso usare questa Dashboard da mobile?
+                                            </button>
+                                          </h2>
+                                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, earum nobis. Eos dolorem ex enim maxime ab, ea ut exercitationem nulla, ipsum debitis delectus molestias quos? Pariatur, sunt. Corrupti, mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem maxime temporibus dolore nam! Aut, necessitatibus? Numquam temporibus, qui architecto neque sit saepe aperiam earum corporis, facere laboriosam dolorem ducimus maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ad quos dolores sed itaque id maiores modi, optio laboriosam quia unde sit. Voluptatum voluptatibus, doloremque mollitia recusandae excepturi itaque autem?</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+
                             </div>
                                 
                             <!-- colonna to do e grafico -->
-                            <div class="col-12 col-lg-4"></div>
+                            <div class="col-12 col-lg-4">
+
+                                <!-- to do -->
+                                <div class="ms-sezione">
+                                    <h2 class="titolo-sezione">Todo</h2>
+
+                                    <div class="input-group mb-3 p-2">
+                                        <div class="input-group-text">
+                                          <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                                      </div>
+                                </div>
+
+                            </div>
         
                         </div>
 
