@@ -86,10 +86,16 @@ header .desktop-version i{
 
 /* MAIN */
 
+.ms-main-container{
+    height: calc(100vh - 80px);
+    background-color: red;
+}
+
+
 /* colonna sinistra */
 .ms-box-sx{
-    padding: 100px 1em 1em;
-    height: 100vh;
+    padding:3em 1em;
+    height: calc(100vh - 80px);
     color: white;
     background: linear-gradient(
         -160deg,
@@ -99,14 +105,6 @@ header .desktop-version i{
         rgb(14 37 59) 100%
     );
 }
-
-
-.ms-container{
-    padding-top: 80px;
-    height: 100%;
-    width: 100%;
-}
-
 
 .font-awesome::marker{
     font-family: "FontAwesome";
@@ -142,6 +140,11 @@ header .desktop-version i{
 
 
 /* COLONNA PRINCIPALE */
+.ms-container{
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+
 
 /* barra superiore */
 .ms-bg{
