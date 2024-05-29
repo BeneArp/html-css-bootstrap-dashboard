@@ -41,7 +41,7 @@ nav{
 }
 
 .col-12 [class*="col"]{
-    background-color: aquamarine;
+    
 
 }
 
@@ -145,10 +145,13 @@ header .desktop-version i{
 /* COLONNA PRINCIPALE */
 
 /* barra superiore */
+.ms-bg{
+    background-color: rgb(27 114 232);
+}
 
 /* breadcrumbs */
 .breadcrumb-item{
-    background-color: rgba(91, 88, 88, 0.5);
+    background-color: rgba(128, 125, 125, 0.5);
     padding: 0 0.8em;
     border-radius: 20px;
     margin-right: 0.5em;
@@ -180,4 +183,35 @@ header .desktop-version i{
     #form{
         width: 100%;
     }
+}
+
+
+
+
+/* parte centrale */
+.ms-sezione{
+    background-color: white;
+    margin-bottom: 0;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    margin: 2.5em 1em;
+}
+
+
+.titolo-sezione{
+    background-color: rgb(247 247 247);
+    padding: 0.5em 0.2em;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* tabella */
+table img{
+    width: 35px;
+    margin-right: 0.2em;
+}
+
+table i{
+    margin: 0;
 }
