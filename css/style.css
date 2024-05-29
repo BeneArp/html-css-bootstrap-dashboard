@@ -160,8 +160,6 @@ header .desktop-version i{
     width: 45%;
     height: 100vh;
     padding: 1em 1em;
-
-    /* debug */
     background-color: white;
 }
 
