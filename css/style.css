@@ -215,8 +215,11 @@ table i{
     margin: 0;
 }
 
+.big{
+    width: 60%;
+}
 
-@media screen and (max-width:676px) {
+@media screen and (max-width:800px) {
     .desktop{
         display: none;
     }
